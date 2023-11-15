@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
     main{
         display: flex;
@@ -13,5 +14,5 @@ article{
 }
 aside{
     flex: 1;
-    overflow-y: auto;
+    overflow-y: auto
 }
