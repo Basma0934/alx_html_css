@@ -1,2 +1,2 @@
-This is our second task as we deep dive the HTML and we move from the Basic to the Advanced.
-Let's all discover what this journey will unfold.
+We are implementing from scratch a webpage from a designer file which will focus on the HTML structure only - no CSS, no style - just pure HTML semantic.
+Simultaneously, starting from the header, to the main body and then the footer; each section will contain various elements.
