@@ -180,9 +180,10 @@
   /* Grid
       ============================= */
   
-   .container {display: flex;
+   .row {display: flex;
     flex-direction: row;
    }   
+
   ul.row {
     margin: 0;
     padding: 0;
