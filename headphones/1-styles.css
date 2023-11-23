@@ -34,4 +34,67 @@
     --line-height-base: 1.5;
     --line-height-big: 1.8;
 
+  /** HEADER **/
+  --header-padding: 4rem 0 0;
+  --header-logo-position: relative;
+  --header-logo-link-display: inline-block;
+  --header-logo-link-position: absolute;
+  --header-logo-link-top: -1rem;
+  --header-logo-link-left: 0;
+ /** BUTTON **/
+  --button-display: inline-block;
+  --button-padding: 1.5rem 3rem;
+  --button-border: var(--color-primary) solid 0.2rem;
+  --button-color: var(--color-black);
+  --button-text-decoration: none;
+  --button-font-size: var(--font-size-large);
+  --button-hover-color: var(--color-white);
+  --button-hover-text-decoration: none;
+  --button-hover-background: var(--color-primary);
+  
    }
+
+ /* Base
+      ============================= */
+  
+      *, *:before, *:after {
+        box-sizing: border-box;
+      }
+      
+      html {
+      scroll-behavior: smooth;
+      font-size: 62.5%;
+      }
+      
+      body {
+        color: var(--text-color);
+        font-family: var(--font-family-base);
+        font-size: var(--font-size-medium);
+        font-weight: var(--font-weight-regular);
+        line-height: var(--line-height-base);
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-family-title);
+        font-weight: var(--font-weight-bold);
+      }
+      
+/* Header
+      ============================= */
+  
+      .header {
+        padding: var(--header-padding);
+             position: relative;
+             z-index: 3;
+             background: transparent;
+      }
+      
+      .header-logo {
+        position: var(--header-logo-position);
+      }
+      
+      .header-logo a {
+        display: var(--header-logo-link-display);
+        position: var(--header-logo-link-position);
+        top: var(--header-logo-link-top);
+        left: var(--header-logo-link-left);
+      }
